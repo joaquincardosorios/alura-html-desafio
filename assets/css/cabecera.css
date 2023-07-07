@@ -1,0 +1,13 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera__logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__img{
+    height: 30px;
+}
