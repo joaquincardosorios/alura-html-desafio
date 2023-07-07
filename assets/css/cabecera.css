@@ -1,6 +1,10 @@
 .cabecera{
     display: flex;
     justify-content: space-between;
+    font-size: 1rem;
+    align-items: center;
+    padding: 1rem 5rem;
+
 }
 
 .cabecera__logo{
@@ -9,5 +13,10 @@
 }
 
 .cabecera__img{
-    height: 30px;
+    height: 24px;
+    padding-right: 0.5rem;
+}
+
+.cabecera__nombre{
+    font-weight: 700;
 }

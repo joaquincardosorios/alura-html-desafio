@@ -1,0 +1,22 @@
+.navegador{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navegador__lista{
+    display: flex;
+}
+
+.navegador__item{
+    list-style: none;
+}
+
+.navegador__link{
+    color:#464646;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.navegador__link--email{
+    font-weight: 700;
+}
