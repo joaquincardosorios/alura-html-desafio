@@ -1,0 +1,33 @@
+.tarjetas{
+    padding: 2rem 9.5rem;
+}
+
+.tarjetas__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.tarjetas__contenido{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.tarjeta__icono{
+
+}
+
+.tarjeta__nombre{
+
+}
