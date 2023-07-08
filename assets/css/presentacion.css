@@ -1,11 +1,15 @@
 .presentacion{
     display: flex;
-    padding: 1rem 7rem;
+    padding: 2rem 9.5rem;
     align-items:  center;
     /* width: 100%; */
     background:  url("../img/banner.jpg") no-repeat center / cover; 
     background-color: rgba(0, 0, 0, 0.1);
 
+}
+
+.presentacion__contenido{
+    padding-right: 1rem;
 }
 
 .presentacion__imagen{

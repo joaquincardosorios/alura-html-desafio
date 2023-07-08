@@ -1,0 +1,14 @@
+.sobre-mi{
+    background-color: #EAF2FD;
+    padding: 4rem 9.5rem;
+}
+
+.sobre-mi__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sobre-mi__descripcion{
+    font-weight: 400;
+    padding-right: calc(2rem + 368px);
+}

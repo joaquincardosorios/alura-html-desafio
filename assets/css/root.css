@@ -3,3 +3,12 @@ body{
     color: #464646;
     font-family: Raleway, sans-serif;
 }
+
+.tarjeta{
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
