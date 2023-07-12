@@ -10,6 +10,7 @@
 
 .presentacion__contenido{
     padding-right: 1rem;
+    width: calc(100% - 368px);
 }
 
 .presentacion__imagen{
