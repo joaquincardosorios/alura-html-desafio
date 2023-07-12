@@ -1,0 +1,46 @@
+.formaciones{
+    padding: 5rem 9.5rem;
+    background-color: #EAF2FD;
+}
+
+.formaciones__titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.formaciones__contenido{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.formacion{
+    width: 368px;
+}
+
+.formacion__institucion{
+    height: 286px; 
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.formacion__logo{
+    
+}
+
+.formacion__titulo{
+    font-weight: 700;
+    font-size: 1.375rem;
+}
+
+
+.formacion__periodo{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+}

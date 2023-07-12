@@ -11,23 +11,31 @@
 
 .tarjetas__contenido{
     display: flex;
-    justify-content: space-between;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
+
 .tarjeta{
     background-color: #FFFFFF;
-    width: 176px;
+    width: calc(176px - 2rem);
     height: 174px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
 }
 
 .tarjeta__icono{
-
+    margin-bottom: 0.5rem;
+    color: #2A7AE4;
+    align-items: center;
+    height: 32px;
 }
 
 .tarjeta__nombre{
-
+    margin: 0;
+    font-weight: 700;
+    font-size: 1rem;
 }
