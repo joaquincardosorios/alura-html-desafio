@@ -1,0 +1,25 @@
+.contacto{
+    padding: 2rem 9.5rem;
+    display: flex;
+    background-color: #EAF2FD;
+}
+
+.contacto__imagen{
+    width: 464px;
+}
+
+.contacto__contenido{
+    width: calc(100% - 464px);
+    margin-left: 1rem;
+}
+
+.contacto__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contacto__mensaje{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+}

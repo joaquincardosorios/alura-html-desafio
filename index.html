@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="./assets/css/tarjetas.css">
     <link rel="stylesheet" href="./assets/css/formaciones.css">
     <link rel="stylesheet" href="./assets/css/experiencias.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
-    <header class="cabecera">
+    <header class="cabecera container">
         <div class="cabecera__logo">
             <img src="./assets/img/icono.png" alt="" class="cabecera__img">
             <p class="cabecera__nombre">Joaquin A. Rios C.</p>
@@ -35,7 +38,7 @@
         </nav>
     </header>
     <section class="presentacion">
-        <div class="presentacion__contenido">
+        <div class="presentacion__contenido container">
             <h1 class="presentacion__titulo">Hola, mi nombre es Joaquin Rios Cardoso y construyo páginas web</h1>
             <p class="presentacion__descripcion">Tengo 33 años, nací en Chile pero soy todos lados del mundo, siempre me ha gustado programar pero hace 2 años di el paso para estudiar formalmente, actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
             <ul class="presentacion__lista">
@@ -47,7 +50,7 @@
         </div>
         <img src="./assets/img/joaquin-rios.jpg" alt="Foto de Joaquin" class="presentacion__imagen">
     </section>
-    <section class="sobre-mi">
+    <section class="sobre-mi container">
         <h2 class="sobre-mi__titulo">Sobre mi</h2>
         <p class="sobre-mi__descripcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta perspiciatis voluptatem error, omnis illum provident illo, corporis maiores laudantium ducimus, eius fugiat inventore? Quod dignissimos, libero eveniet sequi esse id?
         Doloribus eius nihil recusandae numquam ipsa error voluptatum laudantium, ipsum culpa expedita rem dolore accusantium dolores vel cumque veritatis placeat perspiciatis optio quam, id, iure odio incidunt! Magni, repudiandae reprehenderit.</p>
@@ -178,11 +181,34 @@
         </div>
     </section>
     <section class="contacto">
-        <img src="" alt="" class="contacto__imagen">
+        <img src="./assets/img/contacto.png" alt="" class="contacto__imagen">
         <div class="contacto__contenido">
-            
+            <h2 class="contacto__titulo">Contacto</h2>
+            <p class="contacto__mensaje">¿Quieres contactarme?</br>
+                Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            <form class="formulario" action="" method="post">
+                <div class="formulario__texto">
+                    <label class="formulario__label" for="">Nombre</label>
+                    <input class="formulario__input" type="text">
+                </div>
+                <div class="formulario__texto">
+                    <label class="formulario__label" for="">Email</label>
+                    <input class="formulario__input" type="text">
+                </div>
+                <div class="formulario__texto formulario__texto--asunto">
+                    <input class="formulario__input formulario__input--asunto" type="text" placeholder="Asunto">
+                </div>
+                <div class="formulario__texto formulario__texto--area">
+                    <textarea class="formulario__input formulario__input--textarea" placeholder="Mensaje"></textarea>
+                </div>
+                <button class="formulario__boton">Enviar Mensaje</button>
+            </form>
         </div>
     </section>
-    <footer></footer>
+    <footer class="footer">
+        <p class="footer__texto">
+            Desarrollado por Joaquin Rios</br>2023
+        </p>
+    </footer>
 </body>
 </html>

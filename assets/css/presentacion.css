@@ -2,7 +2,6 @@
     display: flex;
     padding: 2rem 9.5rem;
     align-items:  center;
-    /* width: 100%; */
     background:  url("../img/banner.jpg") no-repeat center / cover; 
     background-color: rgba(0, 0, 0, 0.1);
 

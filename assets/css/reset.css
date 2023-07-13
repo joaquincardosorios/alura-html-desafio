@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,3 +10,11 @@ h1, h2, h3, h4, h5, h6 {
 ul, li {
     padding: 0;
 }
+
+input:focus {
+    outline: none;
+  }
+
+  textarea:focus{
+    outline: none;
+  }
