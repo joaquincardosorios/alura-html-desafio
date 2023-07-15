@@ -72,3 +72,18 @@
  border-color: #2A7AE4;
  color: #FFFFFF;
 }
+
+@media screen and (min-width:0px) {
+    .experiencias{
+        padding: 1.5rem 1rem;
+    }
+
+    .experiencia{
+        flex-direction: column;
+    }
+
+    .experiencia__imagen{
+        max-width: 100%;
+        height: auto;
+    }
+}

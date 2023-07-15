@@ -20,3 +20,25 @@
 .navegador__link--email{
     font-weight: 700;
 }
+
+@media screen and (min-width:0px) {
+    .navegador__link{
+        display: none;
+    }
+
+    .navegador__link--email{
+        display: flex;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1440px) {
+    .navegador__link{
+        display: flex;
+    }
+
+}

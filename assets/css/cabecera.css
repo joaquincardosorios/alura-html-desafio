@@ -3,7 +3,7 @@
     justify-content: space-between;
     font-size: 1rem;
     align-items: center;
-    padding: 1rem 9.5rem;
+    
 
 }
 
@@ -21,6 +21,24 @@
     font-weight: 700;
 }
 
-@media screen and (max-width:768px) {
-    
+@media screen and (min-width:0px) {
+    .cabecera{
+        padding: 1rem 1rem;
+    }
+
+    .cabecera__nombre{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cabecera{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .cabecera{
+        padding: 1rem 9.5rem;
+    }
 }

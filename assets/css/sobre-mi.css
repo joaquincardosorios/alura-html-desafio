@@ -12,3 +12,24 @@
     font-weight: 400;
     padding-right: calc(2rem + 368px);
 }
+
+@media screen and (min-width:0px) {
+    .sobre-mi{
+        padding: 1.5rem 1rem;
+    }
+
+    .sobre-mi__descripcion{
+        padding-right: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .sobre-mi{
+        padding: 4rem 2rem;
+    }
+
+    .sobre-mi__descripcion{
+        padding-right: 0;
+    }
+}

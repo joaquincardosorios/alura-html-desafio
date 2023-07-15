@@ -11,8 +11,8 @@
 
 .tarjetas__contenido{
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 
@@ -38,4 +38,34 @@
     margin: 0;
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media screen and (min-width:0px) {
+    .tarjetas{
+        padding: 1.5rem 1rem;
+    }
+
+    .tarjetas__titulo{
+        font-size: 1.375rem;
+    }
+
+    .tarjeta{
+        height: calc(118px - 2rem);
+        width: calc(50% - 2.5rem);
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .tarjetas{
+        padding: 2rem 2rem;
+    }
+
+    .tarjeta{
+        height: calc(118px - 2rem);
+        max-width:calc(224px - 2rem); ;
+        width: calc(100% - 2rem);
+        margin-bottom: 1rem;
+    }
+
 }
